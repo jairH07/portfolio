@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Jair Hilario</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    header {
+      background-color: #333;
+    }
+
+    header .nav-link:hover {
+      color: #ff6347;
+    }
+
+    main h1 {
+      font-size: 3rem;
+      color: #ff6347;
+    }
+
+    main h2 {
+      color: #555;
+    }
+
+    .bg-success {
+      background-color: #28a745 !important;
+    }
+
+    .bg-secondary {
+      background-color: #6c757d !important;
+    }
+
+    .bg-light {
+      background-color: transparent !important;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+    }
+
+    footer a {
+      color: #ff6347;
+    }
+
+    .fa-code,
+    .fa-graduation-cap,
+    .fa-computer {
+      color: #ff6347;
+    }
+
+    .fa-code:hover,
+    .fa-graduation-cap:hover,
+    .fa-computer:hover {
+      color: #dc3545;
+    }
+
+    .rounded {
+      border-radius: 1rem !important;
+    }
+
+    .nav-link,
+    .btn-outline-dark,
+    .fab {
+      transition: transform 0.3s;
+    }
+
+    .nav-link:hover,
+    .btn-outline-dark:hover,
+    .fab:hover {
+      transform: scale(1.1);
+    }
+
+    img {
+      transition: transform 0.3s;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
+
+    .p-4 {
+      transition: transform 0.3s;
+    }
+
+    .p-4:hover {
+      transform: scale(1.05);
+    }
+
+    .lstr {
+      float: right;
+      border: none;
+      list-style: none;
+    }
+
+    .lstr a {
+      margin: 10px;
+    }
+
+   /* Dark mode */
+      .dark-mode {
+        background-color: #121212;
+        color: #ffffff;
+      }
+  </style>
+  <body>
+    <header class="bg-dark text-white py-3">
+      <nav class="container">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <button class="btn btn-outline-light" id="dark-mode-toggle">Dark 
+      </nav>
+    </header>
+
+    <main id="home" class="container mt-5">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start">
+          <h1 class="display-4">Hi, I'm Jair Hilario</h1>
+          <h2 class="text-secondary">MERN Stack Developer</h2>
+          <button class="btn btn-outline-dark me-2">Contact</button>
+          <button class="btn btn-outline-dark">Resume</button>
+          <div class="mt-4">
+            <a href="#" class="text-decoration-none"
+              ><i class="fab fa-linkedin fa-2x mx-2"></i
+            ></a>
+            <a href="#" class="text-decoration-none"
+              ><i class="fab fa-instagram fa-2x mx-2"></i
+            ></a>
+            <a href="#" class="text-decoration-none"
+              ><i class="fab fa-whatsapp fa-2x mx-2"></i
+            ></a>
+            <a href="#" class="text-decoration-none"
+              ><i class="fab fa-facebook fa-2x mx-2"></i
+            ></a>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <img
+            src="myphoto.jpg"
+            alt="photo"
+            class="img-fluid rounded"
+            style="max-width: 300px"
+          />
+          <p class="mt-3">Jair Hilario</p>
+        </div>
+      </div>
+    </main>
+
+    <section id="about" class="container mt-5">
+      <div class="bg-success text-white p-4 rounded">
+        <h2 class="text-center mb-4">About</h2>
+        <p>
+          I am a dedicated computer science student at KIIT University with a
+          passion for software engineering, scientific exploration, and data
+          analysis. My insatiable curiosity drives me to continuously seek out
+          new knowledge and skills. I actively participate in study communities
+          and collaborate on innovative projects. My goal is to apply my
+          expertise to solve real-world problems and contribute to the
+          advancement of science and technology.
+        </p>
+      </div>
+    </section>
+
+    <aside class="container mt-5">
+      <h1 class="text-center mb-4">Skills</h1>
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-3">
+          <div class="bg-secondary text-white p-4 rounded text-center">
+            <i class="fab fa-html5 fa-3x"></i>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="bg-secondary text-white p-4 rounded text-center">
+            <i class="fab fa-css3-alt fa-3x"></i>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="bg-secondary text-white p-4 rounded text-center">
+            <i class="fab fa-js fa-3x"></i>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="bg-secondary text-white p-4 rounded text-center">
+            <i class="fab fa-python fa-3x"></i>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="bg-secondary text-white p-4 rounded text-center">
+            <i class="fas fa-c fa-3x"></i>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="bg-secondary text-white p-4 rounded text-center">
+            <i class="fas fa-database fa-3x"></i>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="bg-secondary text-white p-4 rounded text-center">
+            <i class="fab fa-react fa-3x"></i>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="bg-secondary text-white p-4 rounded text-center">
+            <i class="fab fa-flutter fa-3x"></i>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="bg-secondary text-white p-4 rounded text-center">
+            <i class="fab fa-node-js fa-3x"></i>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <article id="projects" class="container mt-5">
+      <div class="row justify-content-center">
+        <div style="display: flex; justify-content: center; width: 100%">
+          <div class="bg-light p-4 rounded text-center mx-3">
+            <p>Dinamic Colors</p>
+            <img
+              src="dinamic color.png"
+              alt="Languages"
+              class="img-fluid rounded mt-3"
+              style="max-width: 150px"
+            />
+          </div>
+          <div class="bg-light p-4 rounded text-center mx-3">
+            <p>Mz Jobs</p>
+            <img
+              src="empregos.png"
+              alt="Education"
+              class="img-fluid rounded mt-3"
+              style="max-width: 150px"
+            />
+          </div>
+          <div class="bg-light p-4 rounded text-center mx-3">
+            <p>Snake Game</p>
+            <img
+              src="snakegame.png"
+              alt="Snake Game"
+              class="img-fluid rounded mt-3"
+              style="max-width: 150px"
+            />
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <footer id="contact" class="bg-light py-5">
+      <div class="container text-center">
+        <h1 style="color: black;">Contact</h1>
+      </div>
+      <form action="contact.php" method="post">
+        <input type="text" name="name" class="form-control mb-3" placeholder="Enter your name" />
+        <input type="email" name="email" class="form-control mb-3" placeholder="Enter your email" />
+        <textarea name="message" class="form-control mb-3" rows="5" placeholder="Your message"></textarea>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+    </footer>
+
+    <footer style="height: 15dvh" class="bg-dark text-white py-3">
+      <div class="container text-center">
+        <p>© 2025 Jair Hilario. All rights reserved</p>
+        <div class="ctc">
+          <ul>
+            <li class="lstr">
+              <a
+                href="https://www.linkedin.com/in/jair-hil%C3%A1rio-209915320?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZR2Xs8mNQZaUNIsBhCJ4sA%3D%3D"
+                >Linkedin</a
+              >
+            </li>
+            <li class="lstr">
+              <a href="https://github.com/jairH07">Github</a>
+            </li>
+            <li class="lstr">
+              <a
+                href="https://www.instagram.com/jair_hilario07?igsh=NTE4MmR1ZHdudzc3&utm_source=qr"
+                >Instagram</a
+              >
+            </li>
+            <li class="lstr">
+              <a
+                href="https://www.facebook.com/share/18uVXtNKHf/?mibextid=wwXIfr"
+                >Facebook</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script>
+        // <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const toggleButton = document.getElementById("dark-mode-toggle");
+        toggleButton.addEventListener("click", function() {
+            document.body.classList.toggle("dark-mode");
+            if (document.body.classList.contains("dark-mode")) {
+                toggleButton.textContent = "Light Mode";
+            } else {
+                toggleButton.textContent = "Dark Mode";
+            }
+        });
+    });
+</script>
+  </body>
+</html>
