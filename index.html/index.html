@@ -114,8 +114,35 @@
    /* Dark mode */
       .dark-mode {
         background-color: #121212;
-        color: #ffffff;
+        color: #363333;
       }
+
+/* Define a largura da barra de rolagem */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f0f0f0; 
+    border-radius: 10px;
+}
+
+/* Cor e formato do "thumb" (a parte que se move) */
+::-webkit-scrollbar-thumb {
+    background: #e6e6e6; 
+    border-radius: 10px;
+}
+
+/* Altera a cor ao passar o mouse */
+::-webkit-scrollbar-thumb:hover {
+    background: #0b0b0b;
+}
+
+
+
+
+
   </style>
   <body>
     <header class="bg-dark text-white py-3">
